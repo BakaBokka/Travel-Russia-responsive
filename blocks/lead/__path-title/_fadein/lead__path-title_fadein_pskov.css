@@ -1,0 +1,4 @@
+.lead__path-title_fadein_pskov {
+    opacity: 0;
+    animation: fadein ease 1s forwards;
+  }

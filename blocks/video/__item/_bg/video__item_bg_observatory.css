@@ -1,0 +1,25 @@
+
+.video__item_bg_observatory {
+    background-image: url('../../../../images/observatory.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.video__item_bg_observatory:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;  
+    opacity: 0.5;
+    border-radius: 6px;
+}
+
+.video__item_bg_observatory:hover:after {
+    opacity: 0.8;
+    transition-duration: 0.8s;
+  }

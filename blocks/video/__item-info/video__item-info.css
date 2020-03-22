@@ -1,0 +1,7 @@
+.video__item-info {
+    display: flex;
+    flex-direction: column;
+    
+    z-index: 1;
+    box-sizing: border-box;
+}

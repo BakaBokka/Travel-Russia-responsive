@@ -1,0 +1,5 @@
+
+.lead__path-title_fadein_tyumen {
+    opacity: 0;
+    animation: fadein ease 1s 14s forwards;
+  }

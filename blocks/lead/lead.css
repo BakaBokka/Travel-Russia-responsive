@@ -1,0 +1,42 @@
+@import url("../page/__lead/page__lead.css");
+@import url("../lead/__title/lead__title.css");
+@import url("../lead/__subtitle/lead__subtitle.css");
+@import url("../lead/__image-wrap/lead__image-wrap.css");
+@import url("../lead/__image/lead__image.css");
+@import url("../lead/__caption/lead__caption.css");
+@import url("../lead/__path/lead__path.css");
+@import url("../lead/__fullpath/lead__fullpath.css");
+@import url("../lead/__path-title/lead__path-title.css");
+
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

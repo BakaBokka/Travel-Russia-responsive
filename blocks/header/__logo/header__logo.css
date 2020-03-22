@@ -1,0 +1,18 @@
+@import url("../__horse-animation/header__horse-animation.css");
+@import url("../__russia-animation/header__russia-animation.css");
+
+.header__logo {
+  overflow: visible;
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}
+
+/* .header__logo:hover .russia {
+  transform: translateX(-5px);
+}
+ */

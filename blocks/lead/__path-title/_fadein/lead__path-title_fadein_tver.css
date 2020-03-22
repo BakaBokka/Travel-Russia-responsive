@@ -1,0 +1,6 @@
+
+
+.lead__path-title_fadein_tver {
+    opacity: 0;
+    animation: fadein ease 1s 4.5s forwards;
+  }

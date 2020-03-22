@@ -1,0 +1,10 @@
+@import url('../page/__intro/page__intro.css');
+@import url("../intro/__title/intro__title.css");
+@import url("../intro/__subtitle/intro__subtitle.css");
+@import url("../intro/__content-row/intro__content-row.css");
+@import url("../intro/__facts/intro__fasts.css");
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,33 @@
+.page__intro {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-bottom: 87px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__intro {
+    margin: 0 48px;
+    padding-bottom: 98px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__intro {
+    margin: 0 24px;
+    padding-bottom: 101px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page__intro {
+    margin: 0 16px;
+    padding-bottom: 71px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__intro {
+    padding-bottom: 70x;
+  }
+}

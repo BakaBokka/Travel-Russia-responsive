@@ -1,0 +1,20 @@
+@import url("../cover/__link/cover__link.css");
+@import url("../cover/__title/cover__title.css");
+@import url("../cover/__subtitle/cover__subtitle.css");
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.cover:hover .cover__link::after {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    margin: 0;
+  }
+}

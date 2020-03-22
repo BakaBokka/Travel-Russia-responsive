@@ -1,0 +1,27 @@
+@import url("../video__icon.css");
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.video__icon_type_play {
+  /* background-image: url('../../../../images/video__icon_play.svg');
+    /* position: absolute;
+    top: 30px;
+    left: 30px; */
+  animation: 1s ease-in-out 0s infinite alternate none running pulse;
+  transition-duration: 1s;
+  /* margin-bottom: 94px; */
+}
+
+.video__icon_type_play:hover {
+  animation: none;
+  opacity: 0.5;
+}
+
+
+
+

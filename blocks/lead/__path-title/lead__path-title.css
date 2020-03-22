@@ -1,0 +1,23 @@
+@import url('../__path-title/_fadein/lead__path-title_fadein_novgorod.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_pskov.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_tver.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_yaroslavl.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_manturovo.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_kotelnich.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_glazov.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_perm.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_tyumen.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_omsk.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_krasnoyarsk.css');
+@import url('../__path-title/_fadein/lead__path-title_fadein_ulan-ude.css');
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

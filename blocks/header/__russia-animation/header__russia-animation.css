@@ -1,0 +1,22 @@
+@keyframes russia_moves_left {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(-5px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+.header__russia-animation {
+    animation: russia_moves_left 4s 5s ease infinite;
+  }
+
+  /* .russia {
+    transition-duration: 1s;
+
+}  */

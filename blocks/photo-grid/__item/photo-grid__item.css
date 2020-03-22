@@ -1,0 +1,14 @@
+
+.photo-grid__item {
+    transition-duration: 0.8s;
+    object-fit: fill;
+    width: 100%;
+    
+    
+    
+}
+
+.photo-grid__item:hover {
+    transform: scale(1.1);
+    
+}

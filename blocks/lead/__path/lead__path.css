@@ -1,0 +1,12 @@
+@keyframes dash {
+    0% {
+      stroke-dashoffset: 1278;
+    }
+  }
+
+.lead__path {
+    stroke-dasharray: 2567;
+    stroke-dashoffset: 2567;
+  
+    animation: dash 20s linear forwards;
+  }

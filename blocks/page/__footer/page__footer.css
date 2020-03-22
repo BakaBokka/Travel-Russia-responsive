@@ -1,0 +1,45 @@
+.page__footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.7083;
+}
+
+@media screen and (max-width: 1184px) {
+  .page__footer {
+    max-width: calc(100% - 92px);
+    margin: 0 48px 48px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page__footer {
+    max-width: calc(100% - 48px);
+    margin: 0 24px 24px;
+    font-size: 1em;
+    line-height: 1.6875;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .page__footer {
+    margin: 0 16px 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page__footer {
+    max-width: fit-content;
+    margin: 0 auto 24px 16px;
+    margin-right: 0;
+    font-size: 1.5em;
+    line-height: 1.7083;
+  }
+}
+

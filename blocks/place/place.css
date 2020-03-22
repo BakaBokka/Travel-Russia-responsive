@@ -1,0 +1,8 @@
+@import url("../page/__place/page__place.css");
+@import url("../place/__image-container/place__image-container.css");
+@import url("../place/__title/place__title.css");
+@import url("../place/__website/place__website.css");
+.place {
+  display: flex;
+  flex-wrap: wrap;
+}

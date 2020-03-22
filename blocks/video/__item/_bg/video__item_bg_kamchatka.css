@@ -1,0 +1,30 @@
+
+.video__item_bg_kamchatka {
+    background-image: url('../../../../images/kamchatka.png');
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.video__item_bg_kamchatka:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;  
+    opacity: 0.5;
+    transition-duration: .8s;
+    border-radius: 6px;
+}
+
+
+ 
+  
+.video__item_bg_kamchatka:hover:after {
+    opacity: 0.8;
+    transition-duration: 0.8s;
+  }
+  
+  

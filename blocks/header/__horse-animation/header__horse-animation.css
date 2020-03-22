@@ -1,0 +1,47 @@
+
+@keyframes white_horse_jumping {
+    0% {
+      transform: rotate(0deg) translateX(0px);
+      transform-origin: right;
+    }
+  
+    50% {
+      transform: rotate(-1deg) translateX(7px);
+      transform-origin: right;
+    }
+  
+    100% {
+      transform: rotate(0deg) translateX(0px);
+      transform-origin: right;
+    }
+  }
+
+  
+/* @keyframes horse_gradient {
+0% { fill: white;   
+}
+50% { fill:url(#linear-gradient);   
+}
+
+100% { fill:white;   
+}
+
+} */
+
+.header__horse-animation {
+    animation: white_horse_jumping 4s 5s ease infinite;
+  
+    transition-duration: 1s;
+  }
+
+  /* 
+.horse:hover {
+    transform: rotate(-1deg) translateX(7px);
+    transform-origin: right;
+    
+ }
+ 
+
+
+ */
+

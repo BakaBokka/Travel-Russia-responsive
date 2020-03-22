@@ -1,0 +1,6 @@
+
+
+.lead__path-title_fadein_kotelnich {
+    opacity: 0;
+    animation: fadein ease 1s 9s forwards;
+  }

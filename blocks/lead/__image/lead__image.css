@@ -1,0 +1,55 @@
+.lead__image {
+  margin-bottom: 7px;
+  background-image: url(../../../images/dama_spit_v_poezde.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-width: 90.63%;
+    height: calc((100vw - 9.38vw)/1.67);
+    margin: -1px 4.69vw 12px;
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 850px) {
+  .lead__image {
+    max-width: 88%;
+    
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vw/1.83);
+    margin: 0 0 13px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    width: 100%;
+    height: calc(100vw/1.77);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__image {
+    width: 100%;
+    height: calc(100vw/1.77);
+    margin: 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    width: 100%;
+    height: calc(100vw/1.52);
+  }
+}

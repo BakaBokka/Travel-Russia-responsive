@@ -1,0 +1,10 @@
+@import url('../__author-accent/intro__author-accent.css');
+
+.intro__author {
+    max-width: 283px;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+font-size: 0.625em;
+line-height: 1.6;
+}

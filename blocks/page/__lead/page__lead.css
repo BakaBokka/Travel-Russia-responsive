@@ -1,0 +1,11 @@
+.page__lead {
+    max-width: 985px;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .page__lead {
+      max-width: 100%;
+    }
+  }

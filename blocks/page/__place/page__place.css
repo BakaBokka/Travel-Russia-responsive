@@ -1,0 +1,38 @@
+.page__place {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 82px;
+    font-family: "Inter", Arial, sans-serif;
+  }
+  
+
+
+.page__place:last-child {
+    padding-bottom: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .page__place {
+      padding-bottom: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page__place {
+      
+    padding-bottom: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .page__place {
+      padding-bottom: 67px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .page__place {
+      padding-bottom: 69px;
+    }
+  }
+  

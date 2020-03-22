@@ -1,0 +1,32 @@
+@import url('../__text/intro__text.css');
+@import url('../__author/intro__author.css');
+@import url('../__author-caption/intro__author-caption.css');
+
+.intro__content-row {
+    display: flex;
+    padding-bottom: 23px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__content-row {
+      padding-bottom: 17px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro__content-row {
+      padding-bottom: 24px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .intro__content-row {
+      padding-bottom: 36px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .intro__content-row {
+      padding-bottom: 37px;
+    }
+  }

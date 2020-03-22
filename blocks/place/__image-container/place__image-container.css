@@ -1,0 +1,17 @@
+@import url('../__image-wrap/place__image-wrap.css');
+@import url('../__image/place__image.css');
+@import url('../__paragraphs/place__paragraphs.css');
+
+.place__image-container {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+      
+}
+
+@media screen and (max-width:650px) {
+    .place__image-container  {
+        flex-wrap: wrap; 
+        margin: 0 auto;
+    }
+  }

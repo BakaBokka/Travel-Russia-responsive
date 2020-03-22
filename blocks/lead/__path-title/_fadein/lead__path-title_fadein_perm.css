@@ -1,0 +1,5 @@
+
+.lead__path-title_fadein_perm {
+    opacity: 0;
+    animation: fadein ease 1s 13s forwards;
+  }

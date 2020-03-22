@@ -1,0 +1,46 @@
+
+.page__places {
+    max-width: 984px;
+    margin: 0 auto;
+    padding-bottom: 111px;
+    font-family: "Inter", Arial, sans-serif;
+  }
+
+@media screen and (max-width: 1024px) {
+    .page__places {
+      max-width: 90.63%;
+      padding-bottom: 121px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page__places {
+      max-width: 93.75%;
+      padding-bottom: 42px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .page__places {
+      max-width: 94.12%;
+     
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .page__places {
+      max-width: 100%;
+      padding-bottom: 57px
+        }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .page__places {
+      
+      padding-bottom: 67px;
+        }
+  }
+
+  

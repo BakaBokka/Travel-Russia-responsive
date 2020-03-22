@@ -1,0 +1,59 @@
+@import url(../__duration/video__duration.css);
+@import url("../__title/video__title.css");
+@import url("../__subtitle/video__subtitle.css");
+@import url("../__icon/video__icon.css");
+@import url("../__icon/_type/video__icon_type_play.css");
+@import url("../__item/_bg/video__item_bg_kamchatka.css");
+@import url("../__item/_bg/video__item_bg_observatory.css");
+@import url("../__item-info/video__item-info.css");
+
+.video__item {
+  max-width: calc((100% - 18px) / 2);
+  width: 100%;
+  min-height: 323px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 18px;
+  border-radius: 7px;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.video__item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item {
+    /* max-height: calc((100vw - 112px)/2/1.5833); */
+    min-height: 288px;
+    margin-right: 16px;
+    max-width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    /* max-height: calc((100vw - 64px) / 2 / 1.76); */
+    min-height: 200px;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .video__item {
+    margin: 0 0 8px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item {
+    min-height: 192px;
+    padding: 16px;
+  }
+}

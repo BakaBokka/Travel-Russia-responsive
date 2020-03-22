@@ -1,0 +1,5 @@
+
+.lead__path-title_fadein_omsk {
+    opacity: 0;
+    animation: fadein ease 1s 15.8s forwards;
+  }

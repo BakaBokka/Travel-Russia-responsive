@@ -1,0 +1,9 @@
+
+.place__image {
+    transition-duration: 0.8s;
+    width: 100%;
+}
+
+.place__image:hover {
+    transform: scale(1.1);
+}
